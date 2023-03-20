@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Contact from '../components/Contact'
 
 function Home() {
+    
     return (
         <>
             <div className="container-fluid d-flex p-0 m-0">

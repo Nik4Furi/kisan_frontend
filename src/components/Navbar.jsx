@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
     return (
@@ -23,8 +24,8 @@ function Navbar() {
 
                     </ul>
                     <div className="flex">
-                        <button className="btn btn-success mx-2">Signup</button>
-                        <button className="btn btn-success mx-2">Login</button>
+                       <Link to="/register"> <button className="btn btn-success mx-2">Signup</button></Link>
+                       <Link to="/login"><button className="btn btn-success mx-2">Login</button></Link>
                     </div>
 
                 </div>
